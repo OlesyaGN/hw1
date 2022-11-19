@@ -85,12 +85,17 @@ public class Main {
         System.out.println("Задание 8.");
         int now = 2022;
         int will = now + 100;
-        int then = now - 200;
-        for (int e=0; e > then; e=e+will) {
+        for (int then=now-200;then<=will; then++) {
 
-            if (e % 79 == 0)
-                System.out.println(e);
+            if (then % 79 == 0)
+                System.out.println(then);
+        }
+        //Задание 9
+        System.out.println("Задание 9.");
+        int m= 2;
+        for (int j= 1;j<=10;j++){
+                System.out.println(m + "*"+ j +"="+ m*j);
+            }
         }
 
     }
-}
